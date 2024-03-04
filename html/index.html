@@ -28,88 +28,120 @@
           </li>
           <li class="flex-column">
             <p class="space text-padding"></p>
-            <p class="text-padding">안녕하세요:) 프론트엔드 로드를 묵묵히 걸어나가고 있는 <span class="strong camel">🐫낙타</span>입니다!</p>
-            <p class="text-padding"><span class="strong">개발</span class="strong">과 <span class="strong">게임</span>, 그리고 <span class="strong">음악</span>을 좋아합니다.</p>
+            <p class="text-padding">
+              안녕하세요:) <span class="strong">'프론트엔드 로드'</span>를 묵묵히 걸어가는 <span class="strong camel">🐫낙타</span>입니다!
+            </p>
+            <p class="text-padding">
+              <span class="strong camel">개발</span>과 <span class="strong camel">게임</span>, 그리고 <span class="strong camel">음악</span>을 좋아합니다.
+            </p>
           </li>
         </ul>
       </section>
     </header>
     <span class="separator"></span>
     <main>
-      <section>
-        <h2>인생 노래 BEST 5</h2>
-      </section>
-      <article>
-        <table>
+      <article class="flex-column">
+        <section class="article-title sub-title-container">
+          <h2 class="text-padding">🎵 인생 노래 BEST 5</h2>
+        </section>
+        <p class="space text-padding"></p>
+        <table class="music-ranking-table">
           <thead>
             <tr>
               <th>순위</th>
               <th>제목</th>
+              <th>가수</th>
               <th>앨범 자켓</th>
               <th>장르</th>
-              <th>바로가기</th>
+              <th>유튜브 바로가기</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>1</td>
-              <td>제목제목</td>
-              <td>앨범 사진</td>
-              <td>장르/장르</td>
-              <td>바로가기링크</td>
+              <td>If I Die Tomorrow</td>
+              <td>빈지노 (Beenzino)</td>
+              <td>
+                <div class="flex-center">
+                  <img class="album-cover" alt="24:26 album cover" src="../images/2426.webp" />
+                </div>
+              </td>
+              <td>랩/힙합</td>
+              <td><a class="link" target="_blank" href="https://www.youtube.com/watch?v=HLy685-iKZI">노래 듣기</a></td>
             </tr>
             <tr>
-              <td>1</td>
-              <td>제목제목</td>
-              <td>앨범 사진</td>
-              <td>장르/장르</td>
-              <td>바로가기링크</td>
+              <td>2</td>
+              <td>blue</td>
+              <td>keshi</td>
+              <td>
+                <div class="flex-center">
+                  <img class="album-cover" alt="bandaids album cover" src="../images/blue.webp" />
+                </div>
+              </td>
+              <td>POP</td>
+              <td><a class="link" target="_blank" href="https://www.youtube.com/watch?v=o3zVtbw0VDM">노래 듣기</a></td>
             </tr>
             <tr>
-              <td>1</td>
-              <td>제목제목</td>
-              <td>앨범 사진</td>
-              <td>장르/장르</td>
-              <td>바로가기링크</td>
+              <td>3</td>
+              <td>josee!</td>
+              <td>데이먼스 이어 (Daymons year)</td>
+              <td>
+                <div class="flex-center">
+                  <img class="album-cover" alt="josee album cover" src="../images/josee.webp" />
+                </div>
+              </td>
+              <td>R&B/Soul, 인디음악</td>
+              <td><a class="link" target="_blank" href="https://www.youtube.com/watch?v=qcUqqXqerp4">노래 듣기</a></td>
             </tr>
             <tr>
-              <td>1</td>
-              <td>제목제목</td>
-              <td>앨범 사진</td>
-              <td>장르/장르</td>
-              <td>바로가기링크</td>
+              <td>4</td>
+              <td>Smoking Dreams</td>
+              <td>Jazzyfact</td>
+              <td>
+                <div class="flex-center">
+                  <img class="album-cover" alt="lifes like album cover" src="../images/lifes-like.webp" />
+                </div>
+              </td>
+              <td>랩/힙합</td>
+              <td><a class="link" target="_blank" href="https://www.youtube.com/watch?v=ioMUH0zpqMM">노래 듣기</a></td>
             </tr>
             <tr>
-              <td>1</td>
-              <td>제목제목</td>
-              <td>앨범 사진</td>
-              <td>장르/장르</td>
-              <td>바로가기링크</td>
+              <td>5</td>
+              <td>멀어</td>
+              <td>빈지노</td>
+              <td>
+                <div class="flex-center">
+                  <img class="album-cover" alt="Primary And The Messengers Part 2 album cover" src="../images/too-far.webp" />
+                </div>
+              </td>
+              <td>랩/힙합</td>
+              <td><a class="link" target="_blank" href="https://www.youtube.com/watch?v=UP0I_dhcwDg">노래 듣기</a></td>
             </tr>
           </tbody>
         </table>
       </article>
     </main>
-    <footer>
-      <section>
-        <h2>방명록</h2>
+    <span class="separator"></span>
+    <footer class="flex-column">
+      <section class="sub-title-container">
+        <h2 class="text-padding">📝 방명록</h2>
       </section>
       <section>
         <form>
           <label for="name">이름</label>
           <input id="name" type="text" placeholder="이름" />
-          <label>본인 취향 영화</label>
+          <p>엇 나도 이 노래 들어봤는데?</p>
 
           <input type="checkbox" id="music1" name="music-title" />
-          <label for="music1">제목제목</label>
+          <label for="music1">If i die tomorrow</label>
           <input type="checkbox" id="music2" name="music-title" />
-          <label for="music2">제목제목</label>
+          <label for="music2">blue</label>
           <input type="checkbox" id="music3" name="music-title" />
-          <label for="music3">제목제목</label>
+          <label for="music3">josee!</label>
           <input type="checkbox" id="music4" name="music-title" />
-          <label for="music4">제목제목</label>
+          <label for="music4">Smoking Dreams</label>
           <input type="checkbox" id="music5" name="music-title" />
-          <label for="music5">제목제목</label>
+          <label for="music5">멀어</label>
 
           <button type="button">등록</button>
           <button type="reset">취소</button>

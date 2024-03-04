@@ -2,6 +2,12 @@
   width: 100%;
 }
 
+.flex-center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
 .flex-column {
   display: flex;
   flex-direction: column;
@@ -45,4 +51,15 @@
 
 .camel {
   color: #a7704a;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  border-bottom: 0.05em solid rgba(55, 53, 47, 0.4);
+  opacity: 0.7;
+}
+
+.album-cover {
+  height: 150px;
 }
