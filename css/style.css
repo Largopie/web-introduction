@@ -62,6 +62,10 @@
 
 .album-cover {
   height: 150px;
+
+  @media (max-width: 575px) {
+    height: 80px;
+  }
 }
 
 .background-blue {
@@ -88,6 +92,10 @@
   gap: 4px;
   line-height: 1.333;
   margin-left: 24px;
+}
+
+.question-container {
+  display: flex;
 }
 
 .question {
@@ -120,7 +128,7 @@
   opacity: 0.7;
 }
 
-.question-box {
+.survey-container {
   margin-top: 1rem;
   background-color: #f1f1ef;
   padding: 8px;

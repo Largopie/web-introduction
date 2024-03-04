@@ -36,6 +36,10 @@ body {
   width: 100vw;
   min-height: 100vh;
   overflow-x: hidden;
+
+  @media (max-width: 575px) {
+    padding: 10px 20px;
+  }
 }
 
 ol,
