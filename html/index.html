@@ -42,7 +42,7 @@
     <main>
       <article class="flex-column">
         <section class="article-title sub-title-container">
-          <h2 class="text-padding">🎵 인생 노래 BEST 5</h2>
+          <h2 class="text-padding background-blue">🎵 인생 노래 BEST 5</h2>
         </section>
         <p class="space text-padding"></p>
         <table class="music-ranking-table">
@@ -123,28 +123,46 @@
     </main>
     <span class="separator"></span>
     <footer class="flex-column">
-      <section class="sub-title-container">
-        <h2 class="text-padding">📝 방명록</h2>
+      <section class="sub-title-container background-blue">
+        <h2 class="text-padding guest-book">📝 방명록</h2>
       </section>
+      <p class="space text-padding"></p>
       <section>
         <form>
-          <label for="name">이름</label>
-          <input id="name" type="text" placeholder="이름" />
-          <p>엇 나도 이 노래 들어봤는데?</p>
+          <label for="name">✅ 이름: </label>
+          <input id="name" type="text" placeholder="이름" class="input-name text-padding" />
+          <p class="text-padding question">❓ 앗, 나도 이 노래 들어봤는데? 들어본 노래 체크!</p>
 
-          <input type="checkbox" id="music1" name="music-title" />
-          <label for="music1">If i die tomorrow</label>
-          <input type="checkbox" id="music2" name="music-title" />
-          <label for="music2">blue</label>
-          <input type="checkbox" id="music3" name="music-title" />
-          <label for="music3">josee!</label>
-          <input type="checkbox" id="music4" name="music-title" />
-          <label for="music4">Smoking Dreams</label>
-          <input type="checkbox" id="music5" name="music-title" />
-          <label for="music5">멀어</label>
+          <div class="flex-column input-box-container">
+            <div class="input-check-box">
+              <input type="checkbox" id="music1" name="music-title" />
+              <label for="music1">If i die tomorrow</label>
+            </div>
 
-          <button type="button">등록</button>
-          <button type="reset">취소</button>
+            <div class="input-check-box">
+              <input type="checkbox" id="music2" name="music-title" />
+              <label for="music2">blue</label>
+            </div>
+            <div class="input-check-box">
+              <input type="checkbox" id="music3" name="music-title" />
+              <label for="music3">josee!</label>
+            </div>
+
+            <div class="input-check-box">
+              <input type="checkbox" id="music4" name="music-title" />
+              <label for="music4">Smoking Dreams</label>
+            </div>
+
+            <div class="input-check-box">
+              <input type="checkbox" id="music5" name="music-title" />
+              <label for="music5">멀어</label>
+            </div>
+          </div>
+
+          <div class="button-container">
+            <button class="button" type="button">등록</button>
+            <button class="button" type="reset">취소</button>
+          </div>
         </form>
       </section>
     </footer>
