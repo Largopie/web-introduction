@@ -10,6 +10,12 @@ registrationButton.addEventListener('click', (event) => {
   event.preventDefault();
 
   const name = document.querySelector('#name').value;
+
+  if (name.trim() === '') {
+    alert('이름을 입력하세요! (공백 X)');
+    return;
+  }
+
   const checkboxs = document.querySelectorAll('input[type="checkbox"]');
   const checked = [];
 
